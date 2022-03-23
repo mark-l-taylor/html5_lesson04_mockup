@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(44,154,183);
+  padding: 6em 0em;
+}
+
+header h1 {
+  color: white;
+  padding-left: 15%;
+  font-size: 4em;
+  margin:auto
+}
+
+header h2 {
+  color: white;
+  padding-left: 15%;
+  width: 30em;
+  font-style: italic;
+
+}
+
+.color-heading {
+  color: rgb(44,154,183);
+}
+
+.all-caps{
+  text-transform:uppercase;
+}
+
+/* Horizontal Navigation Bar */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 15%;
+  overflow: hidden;
+  background-color: rgb(235,235,235);
+}
+.nav-list-item{
+  display: block;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration-color: white;
+  float: left
+}
+
+.nav-list-item:first-child{
+  padding-left: 0em;
+}
+
+#first-nav-link{
+  padding-left: 0em;
+}
+
+.nav-list-link{
+  display: block;
+  color: rgb(58,58,58);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.middle-section{
+  padding: 2em 0em;
+}
+
+.content-link{
+  color:  rgb(44,154,183);
+  padding: 1rem 0rem;
+  text-decoration: none;
+}
+
+.content-section {
+  display:block;
+  float: left;
+  width: 50%;
+  margin-left: 15%;
+  margin-right: 4rem;
+}
+
+.side-bar {
+  display:block;
+  float:inherit;
+  margin-right:8rem;
+  overflow: hidden;
+}
+
+.side-bar figure{
+  margin: inherit;
+}
+
+/* section {
+  overflow: hidden;
+} */
+
+blockquote {
+  color: rgb(82,186,213);
+  text-decoration-color: rgb(82,186,213);
+  margin: unset;
+  padding: 2rem 0rem;
+}
+
+.main-footer{
+  background-color: rgb(58,58,58);
+  text-align: center;
+  padding: 4rem;
+  content: "";
+  display: block;
+  clear:left;
+}
+
+.main-footer p{
+  color: white;
+}
+
+.main-footer nav{
+  /* enables the list items to be centered */
+  display: table;
+  margin: 0 auto;
+}
+
+.footer-nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 8rem;
+  overflow: hidden;
+}
+
+.footer-list-item{
+  display: block;
+  text-align: center;
+  padding: 0px 20px;
+  float: left;
+}
+
+.footer-list-link{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
