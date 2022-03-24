@@ -81,6 +81,19 @@ header h2 {
   margin-right: 4rem;
 }
 
+.wrap-image-text{
+  display:block;
+  float: left;
+  text-align: center;
+  /* width: 50%; */
+}
+
+.text-justify p{
+  text-align: justify;
+  float:inherit;
+}
+
+
 .side-bar {
   display:block;
   float:inherit;
