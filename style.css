@@ -4,7 +4,7 @@
 }
 
 header {
-  background-color: rgb(44,154,183);
+  background-color: rgb(28,96,115);
   padding: 6em 0em;
 }
 
@@ -24,7 +24,7 @@ header h2 {
 }
 
 .color-heading {
-  color: rgb(44,154,183);
+  color: rgb(28, 96, 115);
 }
 
 .all-caps{
@@ -68,7 +68,7 @@ header h2 {
 }
 
 .content-link{
-  color:  rgb(44,154,183);
+  color:  rgb(37, 127, 152);
   padding: 1rem 0rem;
   text-decoration: none;
 }
@@ -110,8 +110,7 @@ header h2 {
 } */
 
 blockquote {
-  color: rgb(82,186,213);
-  text-decoration-color: rgb(82,186,213);
+  color: rgb(26,91,107);
   margin: unset;
   padding: 2rem 0rem;
 }
